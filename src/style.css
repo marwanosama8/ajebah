@@ -43,6 +43,9 @@
 .head-light-white{
     @apply text-center font-bold text-4xl text-white
 }
+.panner{
+    max-width: 47%;
+}
 @media (min-width: 767px) {
     .panner {
         max-width: 47%;
