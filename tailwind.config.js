@@ -34,7 +34,7 @@ module.exports = {
       Cairo: "'Cairo', serif"
     },
     screens: {
-      'md':'1024px'
+      'md':'1025px'
     },
     container: {
       center: true,
