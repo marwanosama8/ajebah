@@ -2607,6 +2607,25 @@ video {
   transition: all 0.3s;
 }
 
+.box-Home-Page .box-10 {
+  /* background-color: white; */
+  text-align: center;
+  background-image: url('../imgs/eith-sec-1.png');
+  /* font-weight: bold; */
+  font-size: 19px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  align-items: center;
+  /* padding: 20px; */
+  width: 393px;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+  /* border-radius: 10px; */
+  transition: all 0.3s;
+}
+
 .box-Home-Page .box-3 {
   /* background-color: white; */
   text-align: center;
@@ -2699,7 +2718,15 @@ video {
   justify-content: end;
 }
 
+.box-10 {
+  justify-content: end;
+}
+
 .box-Home-Page .box-2:hover .div-hover {
+  bottom: 0;
+}
+
+.box-Home-Page .box-10:hover .div-hover {
   bottom: 0;
 }
 
@@ -2801,6 +2828,10 @@ video {
     width: 275px;
   }
 
+  .box-Home-Page .box-10 {
+    width: 275px;
+  }
+
   .box-Home-Page .box-3 {
     width: 275px;
   }
@@ -2830,6 +2861,10 @@ video {
   }
 
   .box-Home-Page .box-2 {
+    width: 170px;
+  }
+
+  .box-Home-Page .box-10 {
     width: 170px;
   }
 
@@ -2865,6 +2900,11 @@ video {
   }
 
   .box-Home-Page .box-2 {
+    width: 300px;
+    margin-bottom: 10px;
+  }
+
+  .box-Home-Page .box-10 {
     width: 300px;
     margin-bottom: 10px;
   }
