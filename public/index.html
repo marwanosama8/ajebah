@@ -7,113 +7,119 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Ajebah - Home</title>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-	integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-	crossorigin="anonymous" referrerpolicy="no-referrer" />
-	
+		integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 	<link rel="stylesheet" href="./styles/style.css">
 </head>
 
 <body class="font-Cairo">
-    <!-- start nav -->
-    <nav class="bg-gray">
-        <div class=" container mx-auto px-4">
-            <div class="flex justify-between">
-                <div class="flex space-x-7 ">
-                    <div>
-                        <!-- Website Logo -->
-                        <a href="#" class="flex items-center py-4 px-2">
-                            <img src="./imgs/logo.png" alt="Logo" class="h-12 w-auto">
-                        </a>
-                    </div>
-                    <!-- Primary Navbar items -->
+	<!-- start nav -->
+	<nav class="bg-gray">
+		<div class=" container mx-auto px-4">
+			<div class="flex justify-between">
+				<div class="flex space-x-7 ">
+					<div>
+						<!-- Website Logo -->
+						<a href="#" class="flex items-center py-4 px-2">
+							<img src="./imgs/logo.png" alt="Logo" class="h-12 w-auto">
+						</a>
+					</div>
+					<!-- Primary Navbar items -->
 					<div class="hidden md:flex items-center space-x-1">
-                        <a href="./index.html"
-                            class="py-1 px-4 text-ajebah-blue border-b-4 border-ajebah-blue font-semibold">Home</a>
-                        <a href="./taxi.html"
-                            class="py-4 px-2 text-dark font-semibold hover:text-ajebah-blue transition duration-300">Taxi
-                            Apps</a>
-                        <a href="./gojek.html"
-                            class="py-4 px-2 text-dark font-semibold hover:text-ajebah-blue transition duration-300">Gojak
-                            Clone</a>
-                        <a href="./super.html" class="py-4 px-2 text-dark font-semibold hover:text-ajebah-blue transition duration-300 ">Super
-                            Services App</a>
-                        <a href="./grap.html"
-                            class="py-4 px-2 text-dark font-semibold hover:text-ajebah-blue transition duration-300">Grap
-                            Clone</a>
-                        <a href="./delivery.html"
-                            class="py-4 px-2 text-dark font-semibold hover:text-ajebah-blue transition duration-300">Delivery
-                            Apps</a>
-                        <a href="./u-for-x.html"
-                            class="py-4 px-2 text-dark font-semibold hover:text-ajebah-blue transition duration-300">U
-                            For X</a>
-                        <a href="./our-clients.html"
-                            class="py-4 px-2 text-dark font-semibold hover:text-ajebah-blue transition duration-300">Our
-                            CLients</a>
-                        <a href="./about-us.html"
-                            class="py-4 px-2 text-dark font-semibold hover:text-ajebah-blue transition duration-300">About
-                            Us</a>
-                    </div>
-                </div>
-                <!-- Secondary Navbar items -->
-                <div class="hidden md:flex items-center ">
-                    <a href=""
-                        class="py-2 px-2 btn-primary ">Enquire
-                        Now</a>
-                </div>
-                <div class="hidden md:flex  md: md:w-auto md:flex-col md:justify-between md:items-center md:ml-4">
-                    <div class="pt-3">
-                        <a href="#" class="text-ajebah-light-blue pr-1">العربية</a>
-                        <a href="#" class="pl-1">English</a>
-                    </div>
-                    <div class="relative mb-4 rounded-2xl w-28 h-4 bg-white">
-                        <span class="text-ajebah-blue relative float-right bottom-1">
-                            <i style="background-color: blue ;" class="fa-solid fa-circle fa-sm"></i>
-                        </span>
-                    </div>
-                </div>
-                <!-- Mobile menu button -->
-                <div class="md:hidden flex items-center justify-between">
-                    <button class="outline-none mobile-menu-button">
-                        <svg class=" w-6 h-6 text-gray-500 hover:text-green-500 " x-show="!showMenu" fill="none"
-                            stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"
-                            stroke="currentColor">
-                            <path d="M4 6h16M4 12h16M4 18h16"></path>
-                        </svg>
-                    </button>
-                </div>
-            </div>
-        </div>
-        <!-- mobile menu -->
-        <div class="hidden mobile-menu">
-            <ul class="">
-                <li class="active"><a href="./index.html"
-                        class="block text-sm px-2 py-4 text-ajebah-blue bg-green-500 font-semibold">Home</a></li>
-                <li><a href="./taxi.html" class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Taxi
-                        Apps</a></li>
-                <li><a href="./gojek.html" class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Gojak
-                        Clone</a></li>
-                <li><a href="./super.html" class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Super
-                        Services App</a></li>
-                <li><a href="./grap.html" class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Grap
-                        Clone</a></li>
-                <li><a href="./delivery.html"
-                        class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Delivery Apps</a>
-                </li>
-                <li><a href="./u-for-x.html" class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">U For
-                        X</a></li>
-                <li><a href="./our-clients.html" class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Our
-                        Clients</a></li>
-                <li><a href="./about-us.html" class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">About
-                        Us</a></li>
-            </ul>
-            <div class="text-center pb-5">
-                <a href=""
-                class="py-2 px-2 btn-primary ">Enquire
-                Now</a>
-            </div>
-        </div>
-    </nav>
-    <!-- end nav -->
+						<a href="./index.html"
+							class="py-1 px-4 text-ajebah-blue border-b-4 border-ajebah-blue font-semibold">Home</a>
+						<a href="./taxi.html"
+							class="py-4 px-2 text-dark font-semibold hover:text-ajebah-blue transition duration-300">Taxi
+							Apps</a>
+						<a href="./gojek.html"
+							class="py-4 px-2 text-dark font-semibold hover:text-ajebah-blue transition duration-300">Gojak
+							Clone</a>
+						<a href="./super.html"
+							class="py-4 px-2 text-dark font-semibold hover:text-ajebah-blue transition duration-300 ">Super
+							Services App</a>
+						<a href="./grap.html"
+							class="py-4 px-2 text-dark font-semibold hover:text-ajebah-blue transition duration-300">Grap
+							Clone</a>
+						<a href="./delivery.html"
+							class="py-4 px-2 text-dark font-semibold hover:text-ajebah-blue transition duration-300">Delivery
+							Apps</a>
+						<a href="./u-for-x.html"
+							class="py-4 px-2 text-dark font-semibold hover:text-ajebah-blue transition duration-300">U
+							For X</a>
+						<a href="./our-clients.html"
+							class="py-4 px-2 text-dark font-semibold hover:text-ajebah-blue transition duration-300">Our
+							CLients</a>
+						<a href="./about-us.html"
+							class="py-4 px-2 text-dark font-semibold hover:text-ajebah-blue transition duration-300">About
+							Us</a>
+					</div>
+				</div>
+				<!-- Secondary Navbar items -->
+				<div class="hidden md:flex items-center ">
+					<a href="" class="py-2 px-2 btn-primary ">Enquire
+						Now</a>
+				</div>
+				<div class="hidden md:flex  md: md:w-auto md:flex-col md:justify-between md:items-center md:ml-4">
+					<div class="pt-3">
+						<a href="#" class="text-ajebah-light-blue pr-1">العربية</a>
+						<a href="#" class="pl-1">English</a>
+					</div>
+					<div class="relative mb-4 rounded-2xl w-28 h-4 bg-white">
+						<span class="text-ajebah-blue relative float-right bottom-1">
+							<i style="background-color: blue ;" class="fa-solid fa-circle fa-sm"></i>
+						</span>
+					</div>
+				</div>
+				<!-- Mobile menu button -->
+				<div class="md:hidden flex items-center justify-between">
+					<button class="outline-none mobile-menu-button">
+						<svg class=" w-6 h-6 text-gray-500 hover:text-green-500 " x-show="!showMenu" fill="none"
+							stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"
+							stroke="currentColor">
+							<path d="M4 6h16M4 12h16M4 18h16"></path>
+						</svg>
+					</button>
+				</div>
+			</div>
+		</div>
+		<!-- mobile menu -->
+		<div class="hidden mobile-menu">
+			<ul class="">
+				<li class="active"><a href="./index.html"
+						class="block text-sm px-2 py-4 text-ajebah-blue bg-green-500 font-semibold">Home</a></li>
+				<li><a href="./taxi.html"
+						class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Taxi
+						Apps</a></li>
+				<li><a href="./gojek.html"
+						class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Gojak
+						Clone</a></li>
+				<li><a href="./super.html"
+						class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Super
+						Services App</a></li>
+				<li><a href="./grap.html"
+						class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Grap
+						Clone</a></li>
+				<li><a href="./delivery.html"
+						class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Delivery Apps</a>
+				</li>
+				<li><a href="./u-for-x.html"
+						class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">U For
+						X</a></li>
+				<li><a href="./our-clients.html"
+						class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Our
+						Clients</a></li>
+				<li><a href="./about-us.html"
+						class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">About
+						Us</a></li>
+			</ul>
+			<div class="text-center pb-5">
+				<a href="" class="py-2 px-2 btn-primary ">Enquire
+					Now</a>
+			</div>
+		</div>
+	</nav>
+	<!-- end nav -->
 
 	<!-- start welcome -->
 	<div class="bg-white">
@@ -185,7 +191,8 @@
 					<h1 class="font-bold text-ajebah-light-blue text-4xl">APP OF THE 21ST CENTURY - KINGX 2022!</h1>
 					<h1 class="pt-5 font-bold">V3CUBE TAKES PRIDE IN CODING AND DESIGNING THE WORLD’S BIGGEST SUPER APP
 					</h1>
-					<p class="pt-4 text-opacity-black md:leading-10 leading-7">My Fellow Smart Entrepreneur, Our KINGX 2022 App will
+					<p class="pt-4 text-opacity-black md:leading-10 leading-7">My Fellow Smart Entrepreneur, Our KINGX
+						2022 App will
 						help you make Easy and Quick Money in no
 						time! And you’ll go on to become the Next Self-Made Billionaire! How? Because you’ll be Earning
 						Commissions on Every Single Service Booked or Order Placed through this Money-Making Super-App.
@@ -510,8 +517,88 @@
 	</div>
 	<!-- end why skype -->
 
+	<!-- start products -->
+	<div class="container py-10">
+		<div class="flex flex-col justify-center items-center">
+			<!-- content -->
+			<div class="flex flex-col gap-5 items-center">
+				<h1 class="text-ajebah-light-blue text-4xl font-bold">PRODUCTS</h1>
+				<h1 class="text-dark text-xl">WIDE RANGE OF PRODUCTS</h1>
+				<h1 class="text-opacity-black text-center">We've done it all! Our portfolio has a diverse assortment of
+					apps that our team has built. Need a
+					service? We've got the app! We have been in the app building business for a very long time and are
+					specialists in design and development of Websites, Mobile Apps for Android & iPhone / iOS Phones and
+					Wearable Devices Apps. V3cube bestselling cloned script apps are:
+				</h1>
+			</div>
+			<!-- panners -->
+			<div class="mt-10">
+				<div class="flex md:flex-row flex-col flex-wrap justify-between md:gap-5">
+					<div class="box-Home-Page gap-4">
+						<div class="box-2">
+							<div class="bg-new-gray min-w-full text-center">
+								<p class="text-white py-4 font-bold">FOOD DELIVERY ON DEMAND</p>
+							</div>
+							<div class="div-hover">
+								<a class="text-3xl font-bold" href="#">VIEW MORE</a>
+							</div>
+						</div>
+						<div class="box-2">
+							<div class="bg-new-gray min-w-full text-center">
+								<p class="text-white py-4 font-bold">FOOD DELIVERY ON DEMAND</p>
+							</div>
+							<div class="div-hover">
+								<a class="text-3xl font-bold" href="#">VIEW MORE</a>
+							</div>
+						</div>
+						<div class="box-3">
+							<div class="bg-new-gray min-w-full text-center">
+								<p class="text-white py-4 font-bold">GROCERY DELIVERY ON DEMAND</p>
+							</div>
+							<div class="div-hover">
+								<a class="text-3xl font-bold" href="#">VIEW MORE</a>
+							</div>
+						</div>
+						<div class="box-4">
+							<div class="bg-new-gray min-w-full text-center">
+								<p class="text-white py-4 font-bold">TAXI BOOKING APP</p>
+							</div>
+							<div class="div-hover">
+								<a class="text-3xl font-bold" href="#">VIEW MORE</a>
+							</div>
+						</div>
+						<div class="box-5">
+							<div class="bg-new-gray min-w-full text-center">
+								<p class="text-white py-4 font-bold">SERVICE PROVIDER ON DEMAND</p>
+							</div>
+							<div class="div-hover">
+								<a class="text-3xl font-bold" href="#">VIEW MORE</a>
+							</div>
+						</div>
+						<div class="box-6">
+							<div class="bg-new-gray min-w-full text-center">
+								<p class="text-white py-4 font-bold">GROCERY DELIVERY ON DEMAND</p>
+							</div>
+							<div class="div-hover">
+								<a class="text-3xl font-bold" href="#">VIEW MORE</a>
+							</div>
+						</div>
+					</div>
+					<div class="box-Home-Page">
+					</div>
+					<div class="box-Home-Page">
+					</div>
+					<div class="box-Home-Page">
+					</div>
+					<div class="box-Home-Page">
+					</div>
+					<div class="box-Home-Page">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 	<!-- end products -->
-
 	<!-- start quick -->
 	<div class="md:flex justify-center items-center">
 		<div class="orange-div  flex flex-col justify-center items-center gap-5">
@@ -791,9 +878,9 @@
 					refuelled with energy to work significantly more earnestly for every one of the clients. Many thanks
 					ARCHIVALDO! <span class="text-dark font-bold">WE LOVED YOUR SINGING AND CAN'T WAIT TO HAVE YOU
 						BACK.</span></h1>
-						<div class="text-center">
-							<a class="btn-primary mt-4 px-2 py-2" href="#">View More Videos</a>
-						</div>
+				<div class="text-center">
+					<a class="btn-primary mt-4 px-2 py-2" href="#">View More Videos</a>
+				</div>
 			</div>
 		</div>
 	</div>
